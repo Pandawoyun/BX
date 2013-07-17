@@ -1,0 +1,26 @@
+<html>
+<head>
+  <style>
+  p { background:yellow; }
+</style>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="sand.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div id="divw1">empty</div>
+  <div id="xiaodongwu1\">
+<button onclick="addline(1,'w','addline.php?wos=w&current=')" type="button">Add a book</button>
+  <div>
+<script>
+
+function addline(current,wos,url){
+var url = url + 1;
+$('#div' + wos + current).after("<div id=\"div" + wos + (current + 1) + "\" >" + url + "<div>");
+}
+
+
+</script>
+ 
+</body>
+</html>
