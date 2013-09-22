@@ -1,7 +1,7 @@
 BX(Used book exchange)(under construction)
 =========
 
-A real  book exchange
+A "real" and revolutionary book exchange
 
 PHP 5.2+
 Basic seperation of business and presentation logic, using knowledge from basic tutorial
